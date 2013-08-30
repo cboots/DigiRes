@@ -1866,14 +1866,12 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="JP2" library="Resistor Module Library" deviceset="M10" device="PASSTHROUGH"/>
 <part name="SUPPLY6" library="Resistor Module Library" deviceset="5V" device=""/>
 <part name="GND19" library="Resistor Module Library" deviceset="DGND" device=""/>
-<part name="C3" library="Resistor Module Library" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C1" library="Resistor Module Library" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="C2" library="Resistor Module Library" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C5" library="Resistor Module Library" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="GND2" library="Resistor Module Library" deviceset="DGND" device=""/>
 <part name="U3" library="Resistor Module Library" deviceset="74*595" device="D" technology="HC" value="74HC595D"/>
 <part name="U4" library="Resistor Module Library" deviceset="74*595" device="D" technology="HC" value="74HC595D"/>
-<part name="SUPPLY2" library="Resistor Module Library" deviceset="5V" device=""/>
-<part name="GND9" library="Resistor Module Library" deviceset="DGND" device=""/>
 <part name="R66" library="Resistor Module Library" deviceset="RESISTOR" device="0603-RES" value="2k"/>
 <part name="R63" library="Resistor Module Library" deviceset="RESISTOR" device="0603-RES" value="2k"/>
 <part name="R62" library="Resistor Module Library" deviceset="RESISTOR" device="0603-RES" value="2k"/>
@@ -1888,8 +1886,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R68" library="Resistor Module Library" deviceset="RESISTOR" device="0603-RES" value="2k"/>
 <part name="R67" library="Resistor Module Library" deviceset="RESISTOR" device="0603-RES" value="2k"/>
 <part name="R64" library="Resistor Module Library" deviceset="RESISTOR" device="0603-RES" value="2k"/>
+<part name="C3" library="Resistor Module Library" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C4" library="Resistor Module Library" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="C2" library="Resistor Module Library" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="GND10" library="Resistor Module Library" deviceset="DGND" device=""/>
 <part name="GND11" library="Resistor Module Library" deviceset="DGND" device=""/>
 <part name="GND12" library="Resistor Module Library" deviceset="DGND" device=""/>
@@ -1965,6 +1963,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R49" library="Resistor Module Library" deviceset="RESISTOR" device="0603-RES" value="2k"/>
 <part name="R65" library="Resistor Module Library" deviceset="RESISTOR" device="0603-RES" value="2k"/>
 <part name="R57" library="Resistor Module Library" deviceset="RESISTOR" device="0603-RES" value="2k"/>
+<part name="GND9" library="Resistor Module Library" deviceset="DGND" device=""/>
+<part name="SUPPLY2" library="Resistor Module Library" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3144,16 +3144,14 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="VALUE" x="32.512" y="-104.14" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="35.56" y="-96.52"/>
-<instance part="C3" gate="G$1" x="-66.04" y="71.12"/>
-<instance part="C1" gate="G$1" x="-76.2" y="27.94"/>
+<instance part="C1" gate="G$1" x="-66.04" y="71.12"/>
+<instance part="C2" gate="G$1" x="-76.2" y="27.94"/>
 <instance part="C5" gate="G$1" x="0" y="-104.14" rot="R90"/>
 <instance part="GND2" gate="G$1" x="-15.24" y="-109.22"/>
 <instance part="U3" gate="A" x="-2.54" y="-17.78"/>
 <instance part="U4" gate="A" x="-2.54" y="-58.42"/>
 <instance part="U3" gate="P" x="-76.2" y="-17.78"/>
 <instance part="U4" gate="P" x="-68.58" y="-63.5"/>
-<instance part="SUPPLY2" gate="G$1" x="-76.2" y="-2.54"/>
-<instance part="GND9" gate="G$1" x="-76.2" y="-38.1"/>
 <instance part="R66" gate="G$1" x="20.32" y="-50.8" smashed="yes">
 <attribute name="NAME" x="11.43" y="-50.5714" size="1.778" layer="95"/>
 <attribute name="VALUE" x="25.4" y="-50.292" size="1.778" layer="96"/>
@@ -3210,8 +3208,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="NAME" x="11.43" y="-25.1714" size="1.778" layer="95"/>
 <attribute name="VALUE" x="25.4" y="-24.892" size="1.778" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="-66.04" y="-20.32"/>
-<instance part="C2" gate="G$1" x="-76.2" y="-63.5"/>
+<instance part="C3" gate="G$1" x="-66.04" y="-20.32"/>
+<instance part="C4" gate="G$1" x="-76.2" y="-63.5"/>
 <instance part="R41" gate="G$1" x="20.32" y="83.82" smashed="yes">
 <attribute name="NAME" x="11.43" y="84.0486" size="1.778" layer="95"/>
 <attribute name="VALUE" x="25.4" y="84.328" size="1.778" layer="96"/>
@@ -3228,6 +3226,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="NAME" x="11.43" y="-7.3914" size="1.778" layer="95"/>
 <attribute name="VALUE" x="25.4" y="-7.112" size="1.778" layer="96"/>
 </instance>
+<instance part="GND9" gate="G$1" x="-68.58" y="12.7"/>
+<instance part="SUPPLY2" gate="G$1" x="-68.58" y="40.64"/>
 </instances>
 <busses>
 </busses>
@@ -3250,7 +3250,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="SUPPLY1" gate="G$1" pin="5V"/>
 <wire x1="-76.2" y1="83.82" x2="-76.2" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="86.36" x2="-76.2" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="-66.04" y1="76.2" x2="-66.04" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="83.82" x2="-76.2" y2="83.82" width="0.1524" layer="91"/>
 <junction x="-76.2" y="83.82"/>
@@ -3272,14 +3272,13 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="SUPPLY4" gate="G$1" pin="5V"/>
 </segment>
 <segment>
-<pinref part="U3" gate="P" pin="VCC"/>
 <pinref part="SUPPLY2" gate="G$1" pin="5V"/>
-<wire x1="-76.2" y1="-7.62" x2="-76.2" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="-5.08" x2="-76.2" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="-66.04" y1="-15.24" x2="-66.04" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="-7.62" x2="-76.2" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="-76.2" y="-7.62"/>
+<pinref part="U2" gate="P" pin="VCC"/>
+<wire x1="-68.58" y1="40.64" x2="-68.58" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="-76.2" y1="33.02" x2="-76.2" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="38.1" x2="-68.58" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-68.58" y="38.1"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3287,7 +3286,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="GND1" gate="G$1" pin="GND"/>
 <pinref part="U1" gate="P" pin="GND"/>
 <wire x1="-76.2" y1="55.88" x2="-76.2" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="-76.2" y1="60.96" x2="-76.2" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="68.58" x2="-66.04" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="60.96" x2="-76.2" y2="60.96" width="0.1524" layer="91"/>
@@ -3305,14 +3304,13 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="GND2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="-76.2" y1="25.4" x2="-76.2" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="U2" gate="P" pin="GND"/>
+<wire x1="-76.2" y1="17.78" x2="-68.58" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="G$1" pin="GND"/>
-<pinref part="U3" gate="P" pin="GND"/>
-<wire x1="-76.2" y1="-35.56" x2="-76.2" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="-76.2" y1="-30.48" x2="-76.2" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="-22.86" x2="-66.04" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="-30.48" x2="-76.2" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="-76.2" y="-30.48"/>
+<wire x1="-68.58" y1="17.78" x2="-68.58" y2="15.24" width="0.1524" layer="91"/>
+<junction x="-68.58" y="17.78"/>
 </segment>
 </net>
 <net name="RELAY_R26" class="0">
@@ -3549,46 +3547,46 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="5V_2" class="0">
 <segment>
-<pinref part="U2" gate="P" pin="VCC"/>
-<wire x1="-68.58" y1="38.1" x2="-68.58" y2="40.64" width="0.1524" layer="91"/>
-<label x="-68.58" y="50.8" size="1.778" layer="95" rot="R270"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="-68.58" y1="40.64" x2="-68.58" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="33.02" x2="-76.2" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="40.64" x2="-68.58" y2="40.64" width="0.1524" layer="91"/>
-<junction x="-68.58" y="40.64"/>
-</segment>
-<segment>
 <pinref part="U4" gate="P" pin="VCC"/>
 <wire x1="-68.58" y1="-53.34" x2="-68.58" y2="-50.8" width="0.1524" layer="91"/>
 <label x="-68.58" y="-40.64" size="1.778" layer="95" rot="R270"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="-68.58" y1="-50.8" x2="-68.58" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="-58.42" x2="-76.2" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="-50.8" x2="-68.58" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="-68.58" y="-50.8"/>
 </segment>
+<segment>
+<pinref part="U3" gate="P" pin="VCC"/>
+<wire x1="-76.2" y1="-7.62" x2="-76.2" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="-5.08" x2="-76.2" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="-66.04" y1="-15.24" x2="-66.04" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="-7.62" x2="-76.2" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="-76.2" y="-7.62"/>
+<label x="-76.2" y="-2.54" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GND_2" class="0">
-<segment>
-<pinref part="U2" gate="P" pin="GND"/>
-<wire x1="-68.58" y1="17.78" x2="-68.58" y2="15.24" width="0.1524" layer="91"/>
-<label x="-68.58" y="7.62" size="1.778" layer="95" rot="R270"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="-68.58" y1="15.24" x2="-68.58" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="25.4" x2="-76.2" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="15.24" x2="-68.58" y2="15.24" width="0.1524" layer="91"/>
-<junction x="-68.58" y="15.24"/>
-</segment>
 <segment>
 <pinref part="U4" gate="P" pin="GND"/>
 <wire x1="-68.58" y1="-73.66" x2="-68.58" y2="-76.2" width="0.1524" layer="91"/>
 <label x="-68.58" y="-83.82" size="1.778" layer="95" rot="R270"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="-68.58" y1="-76.2" x2="-68.58" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="-66.04" x2="-76.2" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="-76.2" x2="-68.58" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="-68.58" y="-76.2"/>
+</segment>
+<segment>
+<pinref part="U3" gate="P" pin="GND"/>
+<wire x1="-76.2" y1="-35.56" x2="-76.2" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="-76.2" y1="-30.48" x2="-76.2" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="-22.86" x2="-66.04" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="-30.48" x2="-76.2" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="-76.2" y="-30.48"/>
+<label x="-76.2" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -4133,16 +4131,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,2,-76.2,83.82,IC1P,VCC,5V,,,"/>
-<approved hash="104,2,-68.58,17.78,IC2P,GND,GND_2,,,"/>
-<approved hash="104,2,-68.58,38.1,IC2P,VCC,5V_2,,,"/>
-<approved hash="104,2,-7.62,-215.9,$1_75_$,VSS,GND,,,"/>
-<approved hash="104,2,17.78,-213.36,$1_75_$,VDD,5V,,,"/>
-<approved hash="104,2,-76.2,-7.62,IC3P,VCC,5V,,,"/>
-<approved hash="104,2,-68.58,-73.66,IC4P,GND,GND_2,,,"/>
-<approved hash="104,2,-68.58,-53.34,IC4P,VCC,5V_2,,,"/>
-</errors>
 </schematic>
 </drawing>
 </eagle>
