@@ -1830,7 +1830,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="S10" library="Resistor Module Library" deviceset="CPC1002N" device=""/>
 <part name="S11" library="Resistor Module Library" deviceset="CPC1002N" device=""/>
 <part name="S12" library="Resistor Module Library" deviceset="CPC1002N" device=""/>
-<part name="R100" library="Resistor Module Library" deviceset="RESISTOR" device="1206" value="10"/>
+<part name="R40" library="Resistor Module Library" deviceset="RESISTOR" device="1206" value="10"/>
 <part name="R80" library="Resistor Module Library" deviceset="RESISTOR" device="1206" value="100"/>
 <part name="R120" library="Resistor Module Library" deviceset="RESISTOR" device="1206" value="1k"/>
 <part name="GND3" library="Resistor Module Library" deviceset="DGND" device=""/>
@@ -2016,7 +2016,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="NAME" x="-30.48" y="-134.62" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-24.13" y="-134.62" size="1.27" layer="95"/>
 </instance>
-<instance part="R100" gate="G$1" x="7.62" y="-38.1" rot="R90"/>
+<instance part="R40" gate="G$1" x="7.62" y="-38.1" rot="R90"/>
 <instance part="R80" gate="G$1" x="7.62" y="-88.9" rot="R90"/>
 <instance part="R120" gate="G$1" x="7.62" y="-139.7" rot="R90"/>
 <instance part="GND3" gate="G$1" x="-38.1" y="-5.08"/>
@@ -2170,7 +2170,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="0" y1="-30.48" x2="-10.16" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="-10.16" y="-30.48"/>
 <junction x="0" y="-30.48"/>
-<pinref part="R100" gate="G$1" pin="2"/>
+<pinref part="R40" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="-33.02" x2="7.62" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="-30.48" x2="0" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
@@ -2187,7 +2187,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="0" y1="-43.18" x2="-10.16" y2="-43.18" width="0.1524" layer="91"/>
 <junction x="0" y="-43.18"/>
 <junction x="-10.16" y="-43.18"/>
-<pinref part="R100" gate="G$1" pin="1"/>
+<pinref part="R40" gate="G$1" pin="1"/>
 <wire x1="0" y1="-43.18" x2="7.62" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
