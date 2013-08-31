@@ -125,6 +125,18 @@
 <wire x1="42.5" y1="7.5" x2="50" y2="7.5" width="0.4064" layer="21"/>
 <wire x1="50" y1="42.5" x2="42.5" y2="42.5" width="0.4064" layer="21"/>
 <wire x1="42.5" y1="42.5" x2="42.5" y2="50" width="0.4064" layer="21"/>
+<text x="5.7912" y="16.0528" size="1.016" layer="51" font="vector" rot="R90">DigiRes-RMod</text>
+<text x="7.0104" y="16.0528" size="1.016" layer="51" font="vector" rot="R90">Collin Boots</text>
+<text x="43.2816" y="38.2016" size="1.016" layer="52" font="vector" rot="MR90">DigiRes-RMod</text>
+<text x="44.8056" y="38.2016" size="1.016" layer="52" font="vector" rot="MR90">Rev 1.1</text>
+<text x="8.2296" y="16.0528" size="1.016" layer="51" font="vector" rot="R90">Rev 1.1</text>
+<text x="47.752" y="38.3032" size="1.016" layer="16" font="vector" ratio="20" rot="MR90">DigiRes</text>
+<text x="46.228" y="38.2016" size="1.016" layer="16" font="vector" ratio="20" rot="MR90">RMod</text>
+<text x="41.656" y="38.2016" size="1.016" layer="26" font="vector" rot="MR90">Collin Boots</text>
+<text x="48.768" y="6.096" size="1.016" layer="16" font="vector" ratio="20" rot="MR0">Rev 1.1</text>
+<text x="47.752" y="43.8912" size="1.016" layer="1" font="vector" ratio="20" rot="SR270">Rev 1.1</text>
+<text x="44.5008" y="10.16" size="1.016" layer="1" font="vector" ratio="20" rot="SR0">Collin</text>
+<text x="44.5008" y="8.8392" size="1.016" layer="1" font="vector" ratio="20" rot="SR0">Boots</text>
 </plain>
 <libraries>
 <library name="Resistor Module Library">
@@ -255,7 +267,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
 <hole x="0" y="0" drill="3.302"/>
 </package>
-<package name="U4CON_18688_10">
+<package name="PPPC101LFBN-RC">
 <wire x1="14.605" y1="1.27" x2="15.875" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="15.875" y1="1.27" x2="16.51" y2="0.635" width="0.2032" layer="21"/>
 <wire x1="16.51" y1="-0.635" x2="15.875" y2="-1.27" width="0.2032" layer="21"/>
@@ -662,7 +674,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="10.051" y="16.712" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R45" library="Resistor Module Library" package="0603-RES" value="2k" x="9.106" y="21.815" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.3184" y="20.6792" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="8.284" y="23.584" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="7.963" y="22.831" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R44" library="Resistor Module Library" package="0603-RES" value="2k" x="16.511" y="27.815" smashed="yes" rot="R270">
@@ -717,12 +729,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="2.1012" y="10.5506" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="2.4822" y="8.6456" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="JP1" library="Resistor Module Library" package="U4CON_18688_10" value="M10PASSTHROUGH" x="3" y="13.5" smashed="yes" rot="R90">
+<element name="JP1" library="Resistor Module Library" package="PPPC101LFBN-RC" value="M10-PPPC101LFBN-RC" x="3" y="13.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="3.508" y="38.4682" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="6.175" y="12.23" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="JP2" library="Resistor Module Library" package="U4CON_18688_10" value="M10PASSTHROUGH" x="47" y="36.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="46.3904" y="11.3286" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
+<element name="JP2" library="Resistor Module Library" package="PPPC101LFBN-RC" value="M10-PPPC101LFBN-RC" x="47" y="36.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="45.2528" y="22.6058" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="43.825" y="37.77" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C1" library="Resistor Module Library" package="0603-CAP" value="1uF" x="9.779" y="27.94" smashed="yes">
