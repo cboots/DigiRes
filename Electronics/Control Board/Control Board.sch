@@ -912,7 +912,17 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.2032" drill="0.4064">
+<clearance class="0" value="0.2032"/>
+</class>
+<class number="1" name="power" width="0.6096" drill="0.4064">
+<clearance class="1" value="0.2032"/>
+</class>
+<class number="2" name="gnd" width="0.3048" drill="0.4064">
+<clearance class="2" value="0.2032"/>
+</class>
+<class number="3" name="power usb" width="0.508" drill="0.4064">
+<clearance class="3" value="0.2032"/>
 </class>
 </classes>
 <parts>
@@ -924,9 +934,12 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <part name="JP2" library="Control Board Library" deviceset="M10" device="-M20-9991046" value="M10-M20-9991046"/>
 <part name="SUPPLY6" library="Resistor Module Library" deviceset="5V" device=""/>
 <part name="GND19" library="Resistor Module Library" deviceset="DGND" device=""/>
+<part name="GND1" library="Resistor Module Library" deviceset="DGND" device=""/>
+<part name="SUPPLY1" library="Resistor Module Library" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
+<description>Mechanical</description>
 <plain>
 </plain>
 <instances>
@@ -941,6 +954,7 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </nets>
 </sheet>
 <sheet>
+<description>Interface</description>
 <plain>
 </plain>
 <instances>
@@ -948,6 +962,8 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <instance part="JP2" gate="G$1" x="73.66" y="5.08"/>
 <instance part="SUPPLY6" gate="G$1" x="35.56" y="5.08"/>
 <instance part="GND19" gate="G$1" x="35.56" y="-7.62"/>
+<instance part="GND1" gate="G$1" x="106.68" y="-5.08"/>
+<instance part="SUPPLY1" gate="G$1" x="106.68" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -958,12 +974,22 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="7.62" y="7.62" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="9"/>
 </segment>
+<segment>
+<wire x1="83.82" y1="7.62" x2="101.6" y2="7.62" width="0.1524" layer="91"/>
+<label x="83.82" y="7.62" size="1.778" layer="95"/>
+<pinref part="JP2" gate="G$1" pin="9"/>
+</segment>
 </net>
 <net name="SERIAL_OE_L" class="0">
 <segment>
 <wire x1="7.62" y1="10.16" x2="27.94" y2="10.16" width="0.1524" layer="91"/>
 <label x="7.62" y="10.16" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="10"/>
+</segment>
+<segment>
+<wire x1="83.82" y1="10.16" x2="104.14" y2="10.16" width="0.1524" layer="91"/>
+<label x="83.82" y="10.16" size="1.778" layer="95"/>
+<pinref part="JP2" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="EEPROM_MOSI" class="0">
@@ -994,6 +1020,13 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <wire x1="35.56" y1="0" x2="35.56" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="5V"/>
 </segment>
+<segment>
+<pinref part="JP2" gate="G$1" pin="6"/>
+<wire x1="83.82" y1="0" x2="106.68" y2="0" width="0.1524" layer="91"/>
+<label x="93.98" y="0" size="1.778" layer="95"/>
+<pinref part="SUPPLY1" gate="G$1" pin="5V"/>
+<junction x="106.68" y="0"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -1002,40 +1035,19 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <wire x1="35.56" y1="-2.54" x2="35.56" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="JP2" gate="G$1" pin="5"/>
+<wire x1="83.82" y1="-2.54" x2="106.68" y2="-2.54" width="0.1524" layer="91"/>
+<label x="93.98" y="-2.54" size="1.778" layer="95"/>
+<pinref part="GND1" gate="G$1" pin="GND"/>
+<junction x="106.68" y="-2.54"/>
+</segment>
 </net>
-<net name="SERIAL_IN" class="0">
+<net name="SERIAL_OUT" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="4"/>
 <wire x1="83.82" y1="-5.08" x2="99.06" y2="-5.08" width="0.1524" layer="91"/>
 <label x="86.36" y="-5.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SERIAL_OE_L_2" class="0">
-<segment>
-<wire x1="83.82" y1="10.16" x2="104.14" y2="10.16" width="0.1524" layer="91"/>
-<label x="83.82" y="10.16" size="1.778" layer="95"/>
-<pinref part="JP2" gate="G$1" pin="10"/>
-</segment>
-</net>
-<net name="SERIAL_LATCH_2" class="0">
-<segment>
-<wire x1="83.82" y1="7.62" x2="101.6" y2="7.62" width="0.1524" layer="91"/>
-<label x="83.82" y="7.62" size="1.778" layer="95"/>
-<pinref part="JP2" gate="G$1" pin="9"/>
-</segment>
-</net>
-<net name="5V_2" class="0">
-<segment>
-<pinref part="JP2" gate="G$1" pin="6"/>
-<wire x1="83.82" y1="0" x2="111.76" y2="0" width="0.1524" layer="91"/>
-<label x="93.98" y="0" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GND_2" class="0">
-<segment>
-<pinref part="JP2" gate="G$1" pin="5"/>
-<wire x1="83.82" y1="-2.54" x2="111.76" y2="-2.54" width="0.1524" layer="91"/>
-<label x="93.98" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EEPROM_CS_L" class="0">
@@ -1046,13 +1058,6 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </segment>
 </net>
 <net name="R_IN" class="0">
-<segment>
-<pinref part="JP2" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="-12.7" x2="99.06" y2="-12.7" width="0.1524" layer="91"/>
-<label x="86.36" y="-12.7" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="R_OUT" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="-10.16" x2="99.06" y2="-10.16" width="0.1524" layer="91"/>
@@ -1065,8 +1070,6 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="7.62" y="2.54" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="7"/>
 </segment>
-</net>
-<net name="SERIAL_MR_L_2" class="0">
 <segment>
 <wire x1="104.14" y1="2.54" x2="83.82" y2="2.54" width="0.1524" layer="91"/>
 <label x="83.82" y="2.54" size="1.778" layer="95"/>
@@ -1079,14 +1082,29 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <label x="7.62" y="5.08" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="8"/>
 </segment>
-</net>
-<net name="SERIAL_CLK_2" class="0">
 <segment>
 <wire x1="101.6" y1="5.08" x2="83.82" y2="5.08" width="0.1524" layer="91"/>
 <label x="83.82" y="5.08" size="1.778" layer="95"/>
 <pinref part="JP2" gate="G$1" pin="8"/>
 </segment>
 </net>
+<net name="R_OUT" class="0">
+<segment>
+<pinref part="JP2" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="-12.7" x2="99.06" y2="-12.7" width="0.1524" layer="91"/>
+<label x="86.36" y="-12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
 </nets>
 </sheet>
 </sheets>
