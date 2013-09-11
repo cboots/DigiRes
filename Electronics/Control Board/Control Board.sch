@@ -727,6 +727,81 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <rectangle x1="20.066" y1="-0.254" x2="20.574" y2="0.254" layer="51"/>
 <rectangle x1="22.606" y1="-0.254" x2="23.114" y2="0.254" layer="51"/>
 </package>
+<package name="TQFP32-08">
+<description>&lt;B&gt;Thin Plasic Quad Flat Package&lt;/B&gt; Grid 0.8 mm</description>
+<wire x1="3.505" y1="3.505" x2="3.505" y2="-3.505" width="0.1524" layer="21"/>
+<wire x1="3.505" y1="-3.505" x2="-3.505" y2="-3.505" width="0.1524" layer="21"/>
+<wire x1="-3.505" y1="-3.505" x2="-3.505" y2="3.15" width="0.1524" layer="21"/>
+<wire x1="-3.15" y1="3.505" x2="3.505" y2="3.505" width="0.1524" layer="21"/>
+<wire x1="-3.15" y1="3.505" x2="-3.505" y2="3.15" width="0.1524" layer="21"/>
+<circle x="-2.7432" y="2.7432" radius="0.3592" width="0.1524" layer="21"/>
+<smd name="1" x="-4.2926" y="2.8" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="2" x="-4.2926" y="2" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="3" x="-4.2926" y="1.2" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="4" x="-4.2926" y="0.4" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="5" x="-4.2926" y="-0.4" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="6" x="-4.2926" y="-1.2" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="7" x="-4.2926" y="-2" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="8" x="-4.2926" y="-2.8" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="9" x="-2.8" y="-4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="10" x="-2" y="-4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="11" x="-1.2" y="-4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="12" x="-0.4" y="-4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="13" x="0.4" y="-4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="14" x="1.2" y="-4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="15" x="2" y="-4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="16" x="2.8" y="-4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="17" x="4.2926" y="-2.8" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="18" x="4.2926" y="-2" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="19" x="4.2926" y="-1.2" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="20" x="4.2926" y="-0.4" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="21" x="4.2926" y="0.4" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="22" x="4.2926" y="1.2" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="23" x="4.2926" y="2" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="24" x="4.2926" y="2.8" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="25" x="2.8" y="4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="26" x="2" y="4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="27" x="1.2" y="4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="28" x="0.4" y="4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="29" x="-0.4" y="4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="30" x="-1.2" y="4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="31" x="-2" y="4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="32" x="-2.8" y="4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<text x="-3.175" y="5.08" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-6.35" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.5466" y1="2.5714" x2="-3.556" y2="3.0286" layer="51"/>
+<rectangle x1="-4.5466" y1="1.7714" x2="-3.556" y2="2.2286" layer="51"/>
+<rectangle x1="-4.5466" y1="0.9714" x2="-3.556" y2="1.4286" layer="51"/>
+<rectangle x1="-4.5466" y1="0.1714" x2="-3.556" y2="0.6286" layer="51"/>
+<rectangle x1="-4.5466" y1="-0.6286" x2="-3.556" y2="-0.1714" layer="51"/>
+<rectangle x1="-4.5466" y1="-1.4286" x2="-3.556" y2="-0.9714" layer="51"/>
+<rectangle x1="-4.5466" y1="-2.2286" x2="-3.556" y2="-1.7714" layer="51"/>
+<rectangle x1="-4.5466" y1="-3.0286" x2="-3.556" y2="-2.5714" layer="51"/>
+<rectangle x1="-3.0286" y1="-4.5466" x2="-2.5714" y2="-3.556" layer="51"/>
+<rectangle x1="-2.2286" y1="-4.5466" x2="-1.7714" y2="-3.556" layer="51"/>
+<rectangle x1="-1.4286" y1="-4.5466" x2="-0.9714" y2="-3.556" layer="51"/>
+<rectangle x1="-0.6286" y1="-4.5466" x2="-0.1714" y2="-3.556" layer="51"/>
+<rectangle x1="0.1714" y1="-4.5466" x2="0.6286" y2="-3.556" layer="51"/>
+<rectangle x1="0.9714" y1="-4.5466" x2="1.4286" y2="-3.556" layer="51"/>
+<rectangle x1="1.7714" y1="-4.5466" x2="2.2286" y2="-3.556" layer="51"/>
+<rectangle x1="2.5714" y1="-4.5466" x2="3.0286" y2="-3.556" layer="51"/>
+<rectangle x1="3.556" y1="-3.0286" x2="4.5466" y2="-2.5714" layer="51"/>
+<rectangle x1="3.556" y1="-2.2286" x2="4.5466" y2="-1.7714" layer="51"/>
+<rectangle x1="3.556" y1="-1.4286" x2="4.5466" y2="-0.9714" layer="51"/>
+<rectangle x1="3.556" y1="-0.6286" x2="4.5466" y2="-0.1714" layer="51"/>
+<rectangle x1="3.556" y1="0.1714" x2="4.5466" y2="0.6286" layer="51"/>
+<rectangle x1="3.556" y1="0.9714" x2="4.5466" y2="1.4286" layer="51"/>
+<rectangle x1="3.556" y1="1.7714" x2="4.5466" y2="2.2286" layer="51"/>
+<rectangle x1="3.556" y1="2.5714" x2="4.5466" y2="3.0286" layer="51"/>
+<rectangle x1="2.5714" y1="3.556" x2="3.0286" y2="4.5466" layer="51"/>
+<rectangle x1="1.7714" y1="3.556" x2="2.2286" y2="4.5466" layer="51"/>
+<rectangle x1="0.9714" y1="3.556" x2="1.4286" y2="4.5466" layer="51"/>
+<rectangle x1="0.1714" y1="3.556" x2="0.6286" y2="4.5466" layer="51"/>
+<rectangle x1="-0.6286" y1="3.556" x2="-0.1714" y2="4.5466" layer="51"/>
+<rectangle x1="-1.4286" y1="3.556" x2="-0.9714" y2="4.5466" layer="51"/>
+<rectangle x1="-2.2286" y1="3.556" x2="-1.7714" y2="4.5466" layer="51"/>
+<rectangle x1="-3.0286" y1="3.556" x2="-2.5714" y2="4.5466" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="M10">
@@ -756,6 +831,57 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <pin name="8" x="10.16" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="9" x="10.16" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="10" x="10.16" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="ATMEGA8U2">
+<wire x1="-15.24" y1="30.48" x2="-15.24" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-30.48" x2="15.24" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-30.48" x2="15.24" y2="30.48" width="0.254" layer="94"/>
+<wire x1="15.24" y1="30.48" x2="-15.24" y2="30.48" width="0.254" layer="94"/>
+<text x="-15.24" y="30.48" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-33.02" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="AVCC" x="-20.32" y="20.32" length="middle"/>
+<pin name="D+" x="-20.32" y="10.16" length="middle"/>
+<pin name="D-" x="-20.32" y="7.62" length="middle"/>
+<pin name="GND" x="-20.32" y="-27.94" length="middle"/>
+<pin name="PB0" x="20.32" y="27.94" length="middle" rot="R180"/>
+<pin name="PB1(SCK)" x="20.32" y="25.4" length="middle" rot="R180"/>
+<pin name="PB2(MOSI)" x="20.32" y="22.86" length="middle" rot="R180"/>
+<pin name="PB3(MISO)" x="20.32" y="20.32" length="middle" rot="R180"/>
+<pin name="PB4" x="20.32" y="17.78" length="middle" rot="R180"/>
+<pin name="PB5" x="20.32" y="15.24" length="middle" rot="R180"/>
+<pin name="PB6" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="PB7" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="PC2" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="PC4" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="PC5" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="PC6" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="PC7" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="PD0" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="PD1" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="PD2(RX)" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="PD3(TX)" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="PD4" x="20.32" y="-20.32" length="middle" rot="R180"/>
+<pin name="PD5" x="20.32" y="-22.86" length="middle" rot="R180"/>
+<pin name="PD6(RTS)" x="20.32" y="-25.4" length="middle" rot="R180"/>
+<pin name="PD7(CTS)" x="20.32" y="-27.94" length="middle" rot="R180"/>
+<pin name="RESET/PC1" x="-20.32" y="27.94" length="middle"/>
+<pin name="UCAP" x="-20.32" y="-20.32" length="middle"/>
+<pin name="UGND" x="-20.32" y="-25.4" length="middle"/>
+<pin name="UVCC" x="-20.32" y="12.7" length="middle"/>
+<pin name="VCC" x="-20.32" y="22.86" length="middle"/>
+<pin name="XTAL1" x="-20.32" y="0" length="middle"/>
+<pin name="XTAL2/PC0" x="-20.32" y="-10.16" length="middle"/>
+</symbol>
+<symbol name="DGND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="5V">
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="5V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -904,6 +1030,78 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </device>
 </devices>
 </deviceset>
+<deviceset name="ATMEGA8U2" prefix="U">
+<description>Atmel 32-pin 8-bit Microcontroller with 8/16/32K Bystes of ISP Flash and USB Controller. ATmega8U2, ATmega16U2, and ATmega32U2</description>
+<gates>
+<gate name="G$1" symbol="ATMEGA8U2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="AU" package="TQFP32-08">
+<connects>
+<connect gate="G$1" pin="AVCC" pad="32"/>
+<connect gate="G$1" pin="D+" pad="29"/>
+<connect gate="G$1" pin="D-" pad="30"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="PB0" pad="14"/>
+<connect gate="G$1" pin="PB1(SCK)" pad="15"/>
+<connect gate="G$1" pin="PB2(MOSI)" pad="16"/>
+<connect gate="G$1" pin="PB3(MISO)" pad="17"/>
+<connect gate="G$1" pin="PB4" pad="18"/>
+<connect gate="G$1" pin="PB5" pad="19"/>
+<connect gate="G$1" pin="PB6" pad="20"/>
+<connect gate="G$1" pin="PB7" pad="21"/>
+<connect gate="G$1" pin="PC2" pad="5"/>
+<connect gate="G$1" pin="PC4" pad="26"/>
+<connect gate="G$1" pin="PC5" pad="25"/>
+<connect gate="G$1" pin="PC6" pad="23"/>
+<connect gate="G$1" pin="PC7" pad="22"/>
+<connect gate="G$1" pin="PD0" pad="6"/>
+<connect gate="G$1" pin="PD1" pad="7"/>
+<connect gate="G$1" pin="PD2(RX)" pad="8"/>
+<connect gate="G$1" pin="PD3(TX)" pad="9"/>
+<connect gate="G$1" pin="PD4" pad="10"/>
+<connect gate="G$1" pin="PD5" pad="11"/>
+<connect gate="G$1" pin="PD6(RTS)" pad="12"/>
+<connect gate="G$1" pin="PD7(CTS)" pad="13"/>
+<connect gate="G$1" pin="RESET/PC1" pad="24"/>
+<connect gate="G$1" pin="UCAP" pad="27"/>
+<connect gate="G$1" pin="UGND" pad="28"/>
+<connect gate="G$1" pin="UVCC" pad="31"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+<connect gate="G$1" pin="XTAL1" pad="1"/>
+<connect gate="G$1" pin="XTAL2/PC0" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DGND" prefix="GND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="DGND" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="5V" prefix="SUPPLY">
+<gates>
+<gate name="G$1" symbol="5V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -936,6 +1134,9 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <part name="GND19" library="Resistor Module Library" deviceset="DGND" device=""/>
 <part name="GND1" library="Resistor Module Library" deviceset="DGND" device=""/>
 <part name="SUPPLY1" library="Resistor Module Library" deviceset="5V" device=""/>
+<part name="U1" library="Control Board Library" deviceset="ATMEGA8U2" device="AU"/>
+<part name="GND2" library="Control Board Library" deviceset="DGND" device=""/>
+<part name="SUPPLY2" library="Control Board Library" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1101,10 +1302,34 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <plain>
 </plain>
 <instances>
+<instance part="U1" gate="G$1" x="0" y="0"/>
+<instance part="GND2" gate="G$1" x="-25.4" y="-33.02"/>
+<instance part="SUPPLY2" gate="G$1" x="-25.4" y="22.86"/>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="5V" class="0">
+<segment>
+<pinref part="SUPPLY2" gate="G$1" pin="5V"/>
+<pinref part="U1" gate="G$1" pin="VCC"/>
+<wire x1="-25.4" y1="22.86" x2="-20.32" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="AVCC"/>
+<wire x1="-20.32" y1="22.86" x2="-20.32" y2="20.32" width="0.1524" layer="91"/>
+<junction x="-20.32" y="22.86"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="GND2" gate="G$1" pin="GND"/>
+<wire x1="-20.32" y1="-27.94" x2="-25.4" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="-27.94" x2="-25.4" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="UGND"/>
+<wire x1="-20.32" y1="-27.94" x2="-20.32" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-27.94"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
